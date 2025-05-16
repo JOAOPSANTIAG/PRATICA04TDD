@@ -1,14 +1,12 @@
-package pratica04;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 
-import static org.junit.Assert.*;
+class CalculadoraFatorialTest {
 
-import org.junit.Test;
-
-public class testefatorial {
-
-	@Test
-	public void test() {
-		fail("Not yet implemented");
-	}
-
+    @Test
+    void testFatorial() {
+    	Fatorial_calculadora calc = new Fatorial_calculadora();
+        assertEquals(120, calc.fatorial(5));
+    }
 }
+
