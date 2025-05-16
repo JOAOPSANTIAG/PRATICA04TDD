@@ -3,7 +3,7 @@ package pratica04;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-class CalculadoraFatorialTest {
+public class TesteFatorial {
 
     @Test
     void testFatorial() {
@@ -11,4 +11,3 @@ class CalculadoraFatorialTest {
         assertEquals(120, calc.fatorial(5));
     }
 }
-
